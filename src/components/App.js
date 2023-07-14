@@ -11,7 +11,7 @@ const App = () => {
   return (
     <div>
         <input type="text" placeholder="Enter name" value={name} onChange={displayName}/>
-        <h1>Hello {name}!</h1>
+        <p>Hello {name}!</p>
     </div>
   )
 }
